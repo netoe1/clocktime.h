@@ -1,7 +1,9 @@
 # clocktime.h
 
 <h4>Static library who abstracts the use of time.h in C. It was made to be simple and fast.</h4>
-<p>We are developing this library in GNU/Linux, so, at the first, all makefile sections are considering gcc for linux. If you're using Windows, we recommend you to compile binaries.
+<p>We are developing this library in GNU/Linux, so, at the first, all makefile sections are considering gcc for linux. If you're using Windows, we recommend you to compile binaries. </p>
+
+I've added a portable version, /src/portable, just download and import in your project. It's not ANSI C, but for smaller projects can work very well!
     
 >For now, we don't want to make this library POSIX, the team will do this task when finish.</p>
 
